@@ -1,0 +1,11 @@
+n=int(input())
+aux=n//100
+n=n%100
+aux+=n//20
+n=n%20
+aux+=n//10
+n=n%10
+aux+=n//5
+n=n%5
+aux+=n
+print(aux)

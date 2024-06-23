@@ -1,0 +1,10 @@
+a=input()
+a=a.split()
+a[0]=int(a[0])
+a[1]=int(a[1])
+xd=0
+while(a[0]<=a[1]):
+    a[0]=a[0]*3
+    a[1]=a[1]*2
+    xd+=1
+print(xd)
